@@ -1,0 +1,93 @@
+{% extends 'awatax/base.html'%}
+
+{% block content%}
+<main id="main">
+<section class="breadcrumbs">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h2 class="text-white">Contact Us</h2>
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li class="text-white" >Contact</li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+<div class="container" data-aos="fade-up">
+
+  <div class="section-title">
+    <h3><span>Contact Us</span></h3>
+    <p>For more information or direct contact please visit our office.</p>
+  </div>
+
+  <div class="row" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-lg-6">
+      <div class="info-box mb-4">
+        <i class="bx bx-map"></i>
+        <h3>Our Address</h3>
+        <p>Masaka city Elgin Street besides Kiwumulo arcade</p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+      <div class="info-box  mb-4">
+        <i class="bx bx-envelope"></i>
+        <h3>Email Us</h3>
+        <p>awatax.companylimited@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+      <div class="info-box  mb-4">
+        <i class="bx bx-phone-call"></i>
+        <h3>Call Us</h3>
+        <p>+256(0) 707-681-497</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="col-lg-6 ">
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="611" height="624" id="gmap_canvas" src="https://maps.google.com/maps?q=Masaka%20city%20Elgin%20Street%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-org.net">123movies alternative</a><br><style>.mapouter{position:relative;text-align:right;height:382px;width:571px;}</style><a href="https://www.embedgooglemap.net">google maps plugin html</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:382px;width:571px;}</style></div></div>
+    </div>
+
+    <div class="col-lg-6">
+      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <div class="row">
+          <div class="col form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="col form-group">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Mobile Number" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
+    </div>
+
+  </div>
+
+</div>
+</section><!-- End Contact Section -->
+</main><!-- End #main -->
+
+
+
+{% endblock %}

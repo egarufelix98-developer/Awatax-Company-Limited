@@ -1,0 +1,138 @@
+{% extends 'awatax/base.html'%}
+
+{% block content%}
+<main id="main">
+<section class="breadcrumbs">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h2 class="text-darkfont-weight-bolder">Gallery</h2>
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li >Gallery</li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= Gallery Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h3>Check our <span>Gallery</span></h3>
+          <p>Images taken from the various activities, projects, achievements,successes we have had over the years.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active"></li>
+              <!-- <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="static/assets/img/services/construction.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Storage Building Construction</h4>
+              <p>Civil Works</p>
+              <a href="static/assets/img/services/construction.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="/services" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="static/assets/img/services/structural.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Buiding Plan</h4>
+              <p>Civil Works</p>
+              <a href="static/assets/img/services/structural.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="/services" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="static/assets/img/services/architec.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Builiding Artifact</h4>
+              <p>Architecture</p>
+              <a href="static/assets/img/services/architec.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="/services" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="static/assets/img/services/civil.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Construction</h4>
+              <p>Civil Works</p>
+              <a href="static/assets/img/services/civil.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="/services" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="static/assets/img/services/plumbing.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Water supply system</h4>
+              <p>Civil Works</p>
+              <a href="static/assets/img/services/plumbing.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="/services" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="static/assets/img/services/electric_install.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Electric Power Installation</h4>
+              <p>Mechanical and electrical works</p>
+              <a href="static/assets/img/services/electric_install.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="/services" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="static/assets/img/services/building_plans.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>House Plan</h4>
+              <p>Architecture</p>
+              <a href="static/assets/img/services/building_plans.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="/services" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="static/assets/img/services/mechanical.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Power Installation</h4>
+              <p>Mechanical and electrical works</p>
+              <a href="static/assets/img/services/mechanical.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="/services" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="static/assets/img/services/construction_buildings.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Men at Work</h4>
+              <p>Civil works</p>
+              <a href="static/assets/img/services/construction_buildings.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="/services" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+</main><!-- End #main -->
+
+
+
+{% endblock %}
